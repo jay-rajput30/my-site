@@ -1,1 +1,3 @@
-#this is a smaple readme file for my portfolio project
+#this is a sample readme file for my portfolio project
+
+This readme file will be used for my portfolio site.
