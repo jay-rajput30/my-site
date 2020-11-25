@@ -14,7 +14,7 @@
 }
 
 .main-container {
-  max-width: 60%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -119,7 +119,8 @@ header {
   margin-top: 2rem;
 }
 header img {
-  max-width: 300px;
+  width: 100%;
+  object-fit: cover;
   margin: auto;
   display: block;
 }
@@ -171,6 +172,11 @@ header h1 {
   margin-left: 0.5rem;
 }
 
+//blog page styling
+
+.project-details {
+  padding: 2rem;
+}
 @media screen and (max-width: 416px) {
   .main-container {
     width: 80%;
@@ -186,11 +192,5 @@ header h1 {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-  }
-
-  header img {
-    max-width: 200px;
-    margin: auto;
-    display: block;
   }
 }
