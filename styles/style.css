@@ -180,8 +180,26 @@ header h1 {
   color: var(--secondary-color);
 }
 
+/* project page styles */
 .project-item {
   margin: 2rem;
+}
+
+.project-item_details p {
+  margin-bottom: 1.5rem;
+}
+.project-item .secondary-link {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.project-item .primary-link {
+  margin: 1rem;
+  padding: 1rem;
+  display: inline-block;
+  font-size: 1rem;
 }
 
 .project p {
@@ -194,6 +212,31 @@ header h1 {
 .project a {
   margin: 1rem;
 }
+
+/* blog pages style */
+
+.blog-item{
+  margin:2rem;
+}
+.blog-item h2{
+  margin-top: 1.5rem;
+}
+
+.blog-item p{
+  margin-bottom: 1.2rem;
+
+}
+
+.blog-item .primary-link{
+  margin: 1rem;
+  padding: 0.8rem;
+}
+
+.blog-item .secondary-link{
+  margin: 1rem;
+  padding: 0.8rem;
+}
+
 @media screen and (max-width: 416px) {
   .main-container {
     width: 80%;
@@ -219,15 +262,32 @@ header h1 {
   }
   .project-item .secondary-link {
     margin-bottom: 1rem;
-    padding: 0.5rem;
+    padding: 0.3rem;
     display: inline-block;
     font-size: 0.8em;
   }
 
   .project-item .primary-link {
     margin-bottom: 1rem;
-    padding: 0.5rem;
+    padding: 0.3rem;
     display: inline-block;
-    font-size: 0.9em;
+    font-size: 0.8em;
+  }
+
+  .blog-item p{
+    margin-bottom: 1.2rem;
+  
+  }
+  
+  .blog-item .primary-link{
+    margin: 1rem;
+    padding: 0.8rem;
+    display: inline-block;
+    font-size:0.8em;
+  }
+  
+  .blog-item .secondary-link{
+    margin: 1rem;
+    padding: 0.8rem;
   }
 }
