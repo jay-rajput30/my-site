@@ -172,11 +172,8 @@ header h1 {
   margin-left: 0.5rem;
 }
 
-//blog page styling
+//project page styling
 
-.project-details {
-  padding: 2rem;
-}
 @media screen and (max-width: 416px) {
   .main-container {
     width: 80%;
