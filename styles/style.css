@@ -15,7 +15,7 @@
 
 .main-container {
   width: 90%;
-  margin: 0 auto;
+  margin: auto;
   height: 100vh;
 }
 
@@ -30,6 +30,10 @@ a {
   color: var(--primary-color);
 }
 
+img {
+  max-width: 100%;
+  margin: 0 auto;
+}
 hr {
   margin: 1.5rem 0;
 }
