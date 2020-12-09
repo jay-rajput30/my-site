@@ -297,4 +297,17 @@ header h1 {
     padding: 0.8rem;
     font-size: 0.8rem;
   }
+  .blog-item .primary-link {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    display: inline-block;
+    font-size: 0.9em;
+  }
+
+  .blog-item .secondary-link {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    display: inline-block;
+    font-size: 0.9em;
+  }
 }
