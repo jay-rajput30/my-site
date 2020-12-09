@@ -14,7 +14,7 @@
 }
 
 .main-container {
-  width: 90%;
+  width: 100%;
   margin: auto;
   height: 100vh;
 }
@@ -38,6 +38,16 @@ hr {
   margin: 1.5rem 0;
 }
 
+.svg-image {
+  background-color: blue;
+}
+.svg {
+  max-width: 50%;
+  height: auto;
+  object-fit: scale;
+  object-position: center;
+  /* border: 2px solid red; */
+}
 /* container */
 
 .container-centered {
@@ -84,6 +94,9 @@ hr {
 
 /* navbar */
 .navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
   padding: 2rem;
   background: linear-gradient(
     to right,
@@ -111,7 +124,7 @@ hr {
   /* display: inline-block; */
   display: flex;
   flex-direction: row;
-  flex-grow: 1;
+  /* flex-grow: 1; */
   justify-content: flex-end;
 }
 
@@ -125,7 +138,7 @@ hr {
 /* header */
 
 header {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 header img {
   width: 70%;
@@ -146,6 +159,7 @@ header h1 {
 /* section */
 
 .section {
+  text-align: center;
   margin: 0.5rem 0.5;
   padding: 2rem 0.5rem;
 }
@@ -154,10 +168,14 @@ header h1 {
   padding: 0.7rem;
 }
 .section p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-bottom: 1em;
 }
 
 .section-ow {
+  text-align: center;
   background-color: #f3eaeae5;
   padding: 2rem 0.5rem;
   margin: rem 0.5rem;
@@ -165,6 +183,9 @@ header h1 {
 
 /* footer */
 .footer {
+  position: sticky;
+  bottom: 0;
+  /* width: 100%; */
   padding: 2rem;
   background: linear-gradient(
     to right,
@@ -188,6 +209,7 @@ header h1 {
 /* project page styles */
 .project-item {
   margin: 2rem;
+  text-align: center;
 }
 
 .project-item_details p {
@@ -222,6 +244,7 @@ header h1 {
 
 .blog-item {
   margin: 2rem;
+  text-align: center;
 }
 .blog-item h2 {
   margin-top: 1.5rem;
@@ -243,13 +266,16 @@ header h1 {
 
 @media screen and (max-width: 416px) {
   .main-container {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
   }
 
   .navbar {
+    padding: 1rem;
     display: flex;
     flex-direction: column;
+    position: sticky;
+    top: 0;
   }
   .navbar ul {
     display: flex;
@@ -258,11 +284,18 @@ header h1 {
     text-align: center;
   }
   .project-item {
-    padding: 1.2rem;
+    padding: 2rem;
+    border-bottom: 2px solid var(--alternate-color);
   }
 
-  .project-item_details p {
+  .project-item_details {
+    text-align: center;
+
+    width: 100%;
     margin-bottom: 3rem;
+  }
+  .project-item_details p {
+    margin-bottom: 2rem;
   }
   .project-item .secondary-link {
     margin: 1rem auto;
@@ -309,5 +342,14 @@ header h1 {
     padding: 0.5rem;
     display: inline-block;
     font-size: 0.9em;
+  }
+
+  header {
+    margin-top: 3rem;
+  }
+
+  .footer {
+    padding: 1rem;
+    line-height: 1.3;
   }
 }
