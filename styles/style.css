@@ -94,8 +94,8 @@ hr {
 
 /* navbar */
 .navbar {
-  position: sticky;
-  top: 0;
+  /* position: sticky;
+  top: 0; */
   width: 100%;
   padding: 2rem;
   background: linear-gradient(
@@ -183,8 +183,6 @@ header h1 {
 
 /* footer */
 .footer {
-  position: sticky;
-  bottom: 0;
   /* width: 100%; */
   padding: 2rem;
   background: linear-gradient(
